@@ -1,7 +1,7 @@
 const booksService = require('../services/booksServices');
 
 const getAll = async (_req, res) => {
-  const allBooks = await booksService.getAll();
+const allBooks = await booksService.getAll();
   res.status(200).json(allBooks);
 };
 
